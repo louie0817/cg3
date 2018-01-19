@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A3852EE200C2D5D00ACFCD4 /* VCLLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3852ED200C2D5D00ACFCD4 /* VCLLoggingViewController.swift */; };
 		9A6CCF3F20085B440058DF2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CCF3E20085B440058DF2D /* AppDelegate.swift */; };
 		9A6CCF4120085B440058DF2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CCF4020085B440058DF2D /* ViewController.swift */; };
 		9A6CCF4420085B440058DF2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6CCF4220085B440058DF2D /* Main.storyboard */; };
@@ -14,7 +15,20 @@
 		9A6CCF4920085B440058DF2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6CCF4720085B440058DF2D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		9A3852EF200C341700ACFCD4 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXFileReference section */
+		9A3852ED200C2D5D00ACFCD4 /* VCLLoggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLLoggingViewController.swift; sourceTree = "<group>"; };
 		9A6CCF3B20085B440058DF2D /* cg3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cg3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6CCF3E20085B440058DF2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A6CCF4020085B440058DF2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +74,7 @@
 				9A6CCF4520085B440058DF2D /* Assets.xcassets */,
 				9A6CCF4720085B440058DF2D /* LaunchScreen.storyboard */,
 				9A6CCF4A20085B440058DF2D /* Info.plist */,
+				9A3852ED200C2D5D00ACFCD4 /* VCLLoggingViewController.swift */,
 			);
 			path = cg3;
 			sourceTree = "<group>";
@@ -76,6 +91,7 @@
 				9A6CCF3920085B440058DF2D /* Resources */,
 			);
 			buildRules = (
+				9A3852EF200C341700ACFCD4 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -136,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3852EE200C2D5D00ACFCD4 /* VCLLoggingViewController.swift in Sources */,
 				9A6CCF4120085B440058DF2D /* ViewController.swift in Sources */,
 				9A6CCF3F20085B440058DF2D /* AppDelegate.swift in Sources */,
 			);
@@ -275,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX93PM636Z;
 				INFOPLIST_FILE = cg3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liacoponi.cg3;
@@ -289,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX93PM636Z;
 				INFOPLIST_FILE = cg3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liacoponi.cg3;
